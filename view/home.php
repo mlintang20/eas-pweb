@@ -17,8 +17,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['username']) && $_SESSION['role'] 
 
         $sql = "SELECT * FROM pendaftar WHERE akun_id='$_SESSION[id]'";
         $result = mysqli_query($conn, $sql);
+        $pendaftar = mysqli_fetch_assoc($result);
         if (mysqli_num_rows($result) === 1) { 
-            header("Location: ../view/detail.php?id=$_SESSION[id]");
+            header("Location: ../view/detail.php?id=$pendaftar[id]");
          } else { ?>
             <!-- cek apakah sudah melengkapi berkas pendaftaran -->
             <div class="flex flex-col justify-center w-fit max-w-md mx-auto gap-y-10 h-full items-center">

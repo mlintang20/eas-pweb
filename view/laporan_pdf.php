@@ -15,7 +15,7 @@ session_start();
   $pdf->Ln();
   $pdf->Ln();
 
-  $query = "SELECT * FROM pendaftar WHERE id ='$_SESSION[id]'";
+  $query = "SELECT * FROM pendaftar WHERE akun_id ='$_SESSION[id]'";
   $result = mysqli_query($conn, $query);
 
   if($result){
