@@ -10,7 +10,7 @@ $tmp = $_FILES['foto_ktp']['tmp_name'];
 
 $role = "user";
 // Rename nama fotonya dengan menambahkan tanggal dan jam upload
-$fotobaru = date('dmYHis').'-'.$username.'-foto_ktp';
+$fotobaru = date('dmYHis').'-'.$username.'-foto_ktp'.$fotoKtp;
 // Set path folder tempat menyimpan fotonya
 $path = "../images/".$fotobaru;
 
