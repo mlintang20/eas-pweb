@@ -21,6 +21,12 @@
     </tr>
 <table>
 
+## Link Deploy
+
+Berikut adalah link website kami yang sudah di-deploy
+
+<a href="https://godaftarkkpyla.000webhostapp.com/" target="_blank">Website Deploy</a>
+
 ## Studi Kasus
 
 Kementrian Kelautan dan Perikanan sedang membutuhkan pegawai baru untuk menjalankan tugas di wilayah Provinsi Jawa Timur. Untuk melaksanakan seleksi pegawai membutuhkan sebuah aplikasi pendaftaran dan pelaksanaan ujian.
